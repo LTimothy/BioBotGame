@@ -1,0 +1,61 @@
+Reproductive & Excretory - The function of this is to pass sperm (Males) and urine (Male & Female).; Urethra; Testes; Vas Deferens; Ovaries; 1
+Excretory - Smooth, collapsible, muscular sac. Temporarily stores urine.; Spleen; Kidney; Urinary Bladder; Stomach; 3
+Circulatory - Transfers deoxygenated blood from the fetus to the placenta, which also carries urea, carbon dioxide, and other waste products., Brings blood from the fetus to the placenta.; Umbilical Cord; Urogenital Opening; Umbilical Arteries; Umbilical Vein; 3
+Reproductive - Functions as a birth canal. Passageway for menstrual flow. Receives the penis in reproduction. Leads uterus to body's exterior.; Ovaries; Vagina; Ureter; Urethra; 2
+Reproductive - Tubes which carry eggs from the ovaries to the uterus and which provides the place where fertilization occurs.; Urethra; Vas Deferens; Pulmonary Vein; Fallopian Tubes; 4
+Reproductive - Female reproductive organ that produces egg cells and hormones.; Ovaries; Vagina; Kidney; Auricles; 1
+Reproductive - Found in female mammals, area where young are usually conceived and develop into a fetus.; Uterus; Vagina; Greater Omentum; Pericardium; 1
+Digestive - Bottom segment of large intestine, leads to the anus.; Anus; Rectum; Urethra; Cecum; 2
+Reproductive/Integumentary - Only in males, contains the testes and the epididymis; Apex; Auricles; Rectum; Scrotal Sacs; 4
+Reproductive - Two sperm producing organs contained in the scrotum.; Uterus; Liver; Pancreas; Testes; 4
+Reproductive - Long, thin, coiled tube where sperm mature and are stored.; Testes; Epididymis; Meconium; Appendix; 2
+Reproductive - A duct that carries spermatozoa from the epididymis to the ejaculatory duct.; Penis; Ureter; Vas Deferens; Scrotum; 3
+Reproductive & Excretory - Male reproductive organ, contains the urethra and also serves to eliminate urine from the body.; Penis; Ureter; Large Intestine; Gallbladder; 1
+Excretory - The dark green substance forming the first feces of a newborn infant.; Cortex; Meconium; Medulla; Thymus Tissue; 2
+Digestive - The circular muscle located between the esophagus and the stomach. It opens and closes to allow bolus to enter the stomach and it prevents any chyme in the stomach from coming back up and burning the lining of the esophagus.; Pyloric Sphincter; Esophagus; Lower Esophageal Sphincter; Meconium; 3
+Digestive - A circular layer of fibers in the muscular pyloric canal walls that thicken to form a powerful muscle. It serves as a valve that prevents regurgitation of food from the intestine back to the stomach.; Pyloric Sphincter; Lower Esophageal Sphincter; Rectum; Ovaries; 1
+Excretory - Filters water and excess waste from the blood and excretes the waste as urine.; Spleen; Ureter; Urethra; Kidney; 4
+Excretory - A tube of smooth muscle fibers that propel urine from the kidneys to the urinary bladder.; Pulmonary Vein; Umbilical Arteries; Ureter; Vas Deferens; 3
+Excretory - Outermost portion of the kidney, and gray in color.; Medulla; Cortex; Ureter; Peritoneum; 2
+Excretory - Center portion of the kidney, acts by filtering and helping with water re-absorption.; Medulla; Cortex; Ureter; Urethra; 1
+Circulatory - The tip of the heart.; Pulmonary Vein; Pulmonary Artery; Atrium; Apex; 4
+Circulatory - The artery that travels across the outside of the heart, delivering oxygenated blood to the cells and tissue of the heart.; Superior Vena Cava; Inferior Vena Cava; Umbilical Artery; Coronary Artery; 4
+Circulatory - Part of the heart that helps to expand the volume of the atria, allowing for a larger capacity of blood to be in the atria at all times.; Atrium; Ventricle; Coronary Vein; Auricles; 4
+Circulatory - The artery that delivers deoxygenated blood from the right ventricle to the lungs, where it will then become oxygenated.; Lungs; Pulmonary Artery; Atrium; Auricles; 2
+Circulatory - The tube that connects the left ventricle to the decending aorta delivering oxygenated blood to all the cells of the body.; Superior Vena Cava; Inferior Vena Cava; Aorta; Fallopian Tubes; 3
+Circulatory - Delivers oxygenated blood to all the cells of the body.; Descending Aorta; Superior Vena Cava; Inferior Vena Cava; Fallopian Tubes; 1
+Circulatory - A vein that is the second largest vein in the human body and returns blood to the right atrium of the heart from the upper half of the body.; Pulmonary Vein; Aorta; Decending Aorta; Superior Vena Cava; 4
+Circulatory - The largest vein in the human body and returns blood to the right atrium of the heart from the lower half of the body.; Inferior Vena Cava; Pulmonary Vein; Coronary Vein; Aorta; 1
+Circulatory - The part of the heart that receives oxygenated blood from the left atrium and sends it through the aorta to get sent around the body.; Left Ventricle; Right Ventricle; Left Atrium; Right Atrium; 1
+Circulatory - The part of the heart that receives deoxygenated blood from the right atrium and sends it through the pulmonary artery to get to the lungs.; Left Ventricle; Right Ventricle; Left Atrium; Right Atrium; 2
+Circulatory - The part of the heart that receives oxygenated blood from the pulmonary vein, sending it to the left ventricle.; Left Ventricle; Right Ventricle; Left Atrium; Right Atrium; 3
+Circulatory - The part of the heart that receives deoxygenated blood from the superior/inferior Vena Cava delivering it to the right ventricle.; Left Ventricle; Right Ventricle; Left Atrium; Right Atrium; 4
+Endocrine - Produces hormones which control metabolism; Thyroid Gland; Thymus Gland; Thymus Tissue; Pancreas; 1
+Lymphatic - An endocrine/lymphatic gland that produces several hormones which stimulate development of cells important in immmunity.; Thyroid Gland; Thymus Gland; Pancreas; Liver; 2
+Respiratory - The windpipe, a tube leading from the larynx to the lungs, a passage through which air moves in the respiratory system.; Larynx; Lungs; Esophagus; Trachea; 4
+Respiratory - Contains the vocal cords.; Trachea; Esophagus; Lower Esophageal Sphincter; Larynx; 4
+Respiratory - Large, flat muscle at the bottom of the chest cavity that helps with breathing & separates the abdominal and thoracic cavity.; Larynx; Esophagus; Diaphragm; Thymus Tissue; 3
+Respiratory - Two large organs enclosed by the diaphragm and the rib cage, where blood picks up oxygen and loses carbon dioxide.; Heart; Pulmonary Artery; Lungs; Pulmonary Vein; 3
+Circulatory - Multi-chambered, muscular organ that pumps blood throughout the body.; Lungs; Kidney; Liver; Heart; 4
+Integumentary - Double-walled membranous sac that encloses the heart.; Pericardium; Peritoneum; Thymus Tissue; Scrotum; 1
+Lymphatic - The primary function of this is to produce specialized white blood cells called T-lymphocytes.; Thyroid Gland; Pancreas; Thymus Tissue; Liver; 3
+Reproductive - In females, opening to urogenital sinus and found ventral to the anal opening. In males, small hole just posterior to the base of the umbilical cord, where genitalia are found.; Urogenital Papilla; Urogenital Opening; Uterus; Cecum; 2
+None - Chest.; Thoracic; Abdominal; Dorsal; Ventral; 1
+None - Anterior body trunk inferior to ribs.; Thoracic; Abdominal; Dorsal; Ventral; 2
+Circulatory - Cord used in the exchange of nutrients and oxygenated/deoxygenated blood between the fetus and the placenta.; Urogenital Opening; Umbilical Arteries; Umbilical Cord; Spleen; 3
+Reproductive - External sac that contains the testes.; Testes; Scrotum; Vagina; Penis; 2
+Reproductive - A part of female external genitalia which appears as a small, fleshy flab of tissue. It covers the opening of the vagina.; Genital Papilla; Urogenital Opening; Urethra; Cecum; 1
+Integumentary - A thin serous membrane that lines the abdominal cavity; Pericardium; Peritoneum; Ventral; Thymus Tissue; 2
+Digestive - Digestion and absorption of food occurs in the small intestine. Here, food is acted on by various enzymes from the small intestine and pancreas and by bile from the liver.; Small Intestine; Large Intestine; Cecum; Liver; 1
+Digestive - Absorbs water from chyme. Bacterial growth produces vitamin B & K from undigested material. Feces contain cells from GI tract, bacteria, and indigestible fiber. Waste is stored at the rectum.; Small Intestine; Large Intestine; Cecum; Pancreas; 2
+Digestive - Contains bacteria that separates cellulase (breaks down cellulose).; Pancreas; Small Intestine; Cecum; Gallbladder; 3
+Digestive - Uses peristaltic mixing waves (mechanical digestion). Uses Hydrochloric Acid to create an acidic environment activating pepsinogen into pepsin (which digests proteins). Mucus protects the stomach from the acid. Secretions combine with food to make chyme.; Pyloric Sphincter; Liver; Bladder; Stomach; 4
+Lymphatic - It produces lymphocytes, filters the blood, stores blood cells, and destroys old blood cells.; Kidney; Spleen; Ureter; Ovaries; 2
+Integumentary - A sheet of connective tissue which attaches to and anchors the outside concave curve of the stomach.; Pericardium; Greater Omentum; Peritoneum; Medulla; 2
+Digestive & Endocrine - Digestive: A "juice" flows down the small intestine containing enzymes that break down each type of biomolecule. Also releases sodium bicarbonate to neutralize stomach acids. Endocrine: Hormones secreted to the blood stream regulate the insulin and glucogen amounts in the body.; Pancreas; Liver; Gallbladder; Kidney; 1
+Digestive - Produces bile to dissolve fats so enzymes can break them down.; Testes; Urethra; Liver; Cecum; 3
+Digestive - A muscular sac attached to the liver that secretes bile and stores it until needed for digestion.; Rectum; Urethra; Anus; Gallbladder; 4
+None - Backside.; Thoracic; Abdominal; Dorsal; Ventral; 3 
+None - Belly side.; Thoracic; Abdominal; Dorsal; Ventral; 4
+Circulatory - A wall that divides the left ventricle and atrium from the right ventricle and atrium.; Pericardium; Septum; Diaphragm; Lungs; 2
+N/A;N/A;N/A;N/A;N/A;0
