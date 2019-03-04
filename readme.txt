@@ -7,10 +7,11 @@ Required Files are enclosed. Please do not modify.
 
 -------------------------
 Contact Info:
-timothyl201@gmail.com
+timothyl@berkeley.edu
 
 If any errors or issues persist after attempts to solve the problem, please contact me.
 This Program Has Been Verified To Work On: Aorus X7 - Windows 8.1 - Java 1.7
 
 -------------------------
 Last Modified 5/22/14
+Readme Updated 3/3/19
