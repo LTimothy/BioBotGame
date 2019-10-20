@@ -1,4 +1,13 @@
-//package game;
+/**
+ * Copyright (C) 2014 Timothy Lee - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU General Public License v3.0.
+ *
+ * You should have received a copy of the GNU General
+ * Public License v3.0 with this file. If not, please
+ * contact: timothyl@berkeley.edu, or visit:
+ * https://github.com/LTimothy/BioBotGame
+ */
 
 import java.awt.CardLayout; // Imports necessary tools
 import java.awt.Color;
@@ -13,7 +22,6 @@ public class preBoot extends JPanel { // Before Boot Screen Animation
 	static CardLayout mainpanels; // Allows static reference to the mainpanels
 	private Mover mover = new Mover(); // Listener for the Timer
 	private Timer timer = new Timer(2, mover); // Timer will reduce brightness at a certain set interval
-	//private boolean finished255 = false;
 	private boolean printtext = false; // By default no text is printed
 	private int whitescale; // Keeps track of the gradient and color
 	public preBoot () {
@@ -39,7 +47,6 @@ public class preBoot extends JPanel { // Before Boot Screen Animation
 			if (whitescale <= 5) printtext = true; // If low enough, print text
 			if (whitescale <= 0) { // If less than 0, do this
 				timer.stop(); // Stops the timer
-				//finished255 = true;
 				try { // Sleeps for 2 seconds before continuing
 					Thread.sleep(2000);
 				} catch (InterruptedException e) {

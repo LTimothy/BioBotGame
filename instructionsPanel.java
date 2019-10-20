@@ -1,6 +1,14 @@
-//package game;
+/**
+ * Copyright (C) 2014 Timothy Lee - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU General Public License v3.0.
+ *
+ * You should have received a copy of the GNU General
+ * Public License v3.0 with this file. If not, please
+ * contact: timothyl@berkeley.edu, or visit:
+ * https://github.com/LTimothy/BioBotGame
+ */
 
-//import java.awt.BorderLayout;
 import java.awt.Color; // Imports necessary Tools
 import java.awt.Dimension;
 import java.awt.Font;
@@ -16,7 +24,6 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
-//import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
@@ -26,14 +33,10 @@ import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
 
 public class instructionsPanel extends JPanel implements MouseListener, KeyListener { // Instructions
-	//private int isize = 400;
-	//private int sizef = 700;
 	private int panelnum = 0; // Starts on the first instruction
 	public Image parts[] = new Image[5]; // 5 sets of images
 	public JTextArea lables[] = new JTextArea[5]; // 5 sets of instructions for the images
 	public instructionsPanel () {
-		//BorderLayout bor = new BorderLayout();
-		//this.setLayout(bor);
 		// Makes the Menu
 		this.setLayout(null);
 		this.setFocusable(true);
@@ -46,7 +49,6 @@ public class instructionsPanel extends JPanel implements MouseListener, KeyListe
 		menu.setMnemonic(KeyEvent.VK_Q); // Shows a letter for the notification bar
 		menu2 = new JMenu("Game Functions"); // The Game Functions Bar
 		menu2.setMnemonic(KeyEvent.VK_G); // Shows a letter for the game functions bar
-		//menu.getAccessibleContext().setAccessibleDescription("The only menu in this program that has menu items");
 		menuBar.add(menu);
 		specialNotice1 = new JMenuItem("Advanced Users Only"); // Shows a notice
 		menu.add(specialNotice1);

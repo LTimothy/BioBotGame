@@ -1,21 +1,30 @@
-//package game; 
+/**
+ * Copyright (C) 2014 Timothy Lee - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU General Public License v3.0.
+ *
+ * You should have received a copy of the GNU General
+ * Public License v3.0 with this file. If not, please
+ * contact: timothyl@berkeley.edu, or visit:
+ * https://github.com/LTimothy/BioBotGame
+ */
 
-// Update Ideas:
-// Add Questions & Instructions & Fix HighScores Panel -> NOW DO HIGHSCORE PANEL + INSTRUCTIONS + COMMENTS
-// Work on RewardSystem(): eg maxvivion+ or maxresources+ & PunishmentSystem(); ~
-// Add Return to Home & More Game Settings ~ a bit
-// Polish Up Difficulty Scaling ~
-// Fix Capacity ~
-// Add File Verification ~
-// Fix HighScore thing ~
-// Improve color choices everywhere (menu buttons, jlabels in shop, etc.)
-// NOTES: update other menu for instructions, add shop components, add increases in difficulty by days past(dusts+, other threats+, resource-, flux-, etc), update instructions, make highscores, enable hide and show extra panels to clicker, add death, improve lifeandstatuspanel, add win, add mission objectives, resources do different things besides income? (bonus energy, health, and income), questions and drill effectiveness, night-time vision reduction + enemies/threats, add lava pits (last threat) rover can go over but takes damage, change days better (aka midnight changing) + change color of navbar accordingly, energy regen in day time only?, add maximum capacity of how much to hold, set a universal textarea on the lifeandstatus panel that shows notices for all panels
-// ADD PAUSE GAME & Better Natural Inflation (Future Updates)
+/**
+ * Update Ideas:
+ * Add Questions & Instructions & Fix HighScores Panel -> NOW DO HIGHSCORE PANEL + INSTRUCTIONS + COMMENTS
+ * Work on RewardSystem(): eg maxvivion+ or maxresources+ & PunishmentSystem(); ~
+ * Add Return to Home & More Game Settings ~ a bit
+ * Polish Up Difficulty Scaling ~
+ * Fix Capacity ~
+ * Add File Verification ~
+ * Fix HighScore thing ~
+ * Improve color choices everywhere (menu buttons, jlabels in shop, etc.)
+ * NOTES: update other menu for instructions, add shop components, add increases in difficulty by days past(dusts+, other threats+, resource-, flux-, etc), update instructions, make highscores, enable hide and show extra panels to clicker, add death, improve lifeandstatuspanel, add win, add mission objectives, resources do different things besides income? (bonus energy, health, and income), questions and drill effectiveness, night-time vision reduction + enemies/threats, add lava pits (last threat) rover can go over but takes damage, change days better (aka midnight changing) + change color of navbar accordingly, energy regen in day time only?, add maximum capacity of how much to hold, set a universal textarea on the lifeandstatus panel that shows notices for all panels
+ */
 
 import javax.imageio.ImageIO; // Imports necessary tools
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
-//import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
@@ -32,7 +41,6 @@ import javax.swing.Timer;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-//import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.GridLayout;
@@ -43,7 +51,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-//import java.awt.event.WindowListener;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -120,7 +127,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		menu.setMnemonic(KeyEvent.VK_Q); // Shows a letter to represent the bar
 		menu2 = new JMenu("Game Functions");
 		menu2.setMnemonic(KeyEvent.VK_G); // Shows a letter to represent the bar
-		//menu.getAccessibleContext().setAccessibleDescription("The only menu in this program that has menu items");
 		menuBar.add(menu);
 		specialNotice1 = new JMenuItem("Advanced Users Only"); // Shows a notice
 		menu.add(specialNotice1);
@@ -251,7 +257,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		highinput.close();
 		for (int i = 0; i < 500; i++) { // If a highscore slot is null for the score, then it is 0
 			if (hscore[i][0] == null) hscore[i][0] = "0";
-			//System.out.println(hscore[i][0]);
 		}
 	}
 	public void SaveHighScore() { // Saves the highscore
@@ -365,8 +370,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		} catch(Exception fnfe) { // No Longer FileNotFoundException
 			System.err.println("[ERROR]: File cannot be found");
 			valid = false;
-			//System.exit(3);
-			//System.err.flush();
 		}
 		if (!valid) defaultVariables();
 		if (valid) {
@@ -494,7 +497,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		daytracker = 0; // Day starts at 0/500
 		maxquestions = 60; maxquestions-=1; // Maximum Questions, code issues have been resolved with reduction of 1 (should be 59 - index)
 		currentquestioncount = (int) (1 + maxquestions * Math.random()); // Starting Question is random
-		//currentquestioncount = 0;
 		r1amount = 0; // Starts without any resources
 		r2amount = 0;
 		r3amount = 0;
@@ -508,9 +510,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		currenthighscore = 0; // Score is 0
 		questionscorrect = 0; // Question Correct is 0
 		questionswrong = 0; // Questions Wrong is 0
-		//System.out.println("SET DEFAULT VARIABLES");
-		//System.out.println("ROVX: " + rovx);
-		//System.out.println("ROVY: " + rovy);
 		//Spawn Ore
 		for (int i = 0; i < 4; i++) {
 			deux = (int) (25 * Math.random());
@@ -656,8 +655,6 @@ public class gamePanel extends JPanel { // The Game Panel
 			System.err.println("ERROR: Cannot open image file MAP");
 			System.exit(1); // Exits
 		}
-	    //Game.frame.setSize(900,900);
-		//this.setSize(900,900);
 	    String threat1 = "threat1.png";
 	    t1image = null;
 	    try { // Does this
@@ -901,8 +898,6 @@ public class gamePanel extends JPanel { // The Game Panel
 				upmaxcapacity.setText("Storage: $" + umcost);
 				energyrepair.setText("Recharge: $" + engcost);
 				healrepair.setText("Repair: $" + repaircost);
-				//notifbar.setText("");
-				//notifbar.getText();
 			}
 		}
 		private class UpRegen implements ActionListener { // Allows the user to buy upgrades. If they can afford the cost is reduced from the user's money supply, and the upgrade is given
@@ -1190,16 +1185,6 @@ public class gamePanel extends JPanel { // The Game Panel
 				br1a = r1amount;
 				br2a = r2amount;
 				br3a = r3amount;
-				//switch (correctans) { // Checks to see if the button selected is correct. If so, rewards are given accordingly and is shown in the notification bar. If not, the correct answer is shown and punishments are given accordingly.
-				/* Debug
-				System.out.println("{Special Debug}");
-				System.out.println(button1.isSelected());
-				System.out.println(button2.isSelected());
-				System.out.println(button3.isSelected());
-				System.out.println(button4.isSelected());
-				System.out.println(correctans);
-				System.out.println("{Special Debug}");
-				*/
 				if (button1.isSelected()) {
 					if (correctans.equals("1")) {
 						 // If the first button is selected and the answer is correct
@@ -1267,8 +1252,6 @@ public class gamePanel extends JPanel { // The Game Panel
 				}
 				if (spawnmoredust == true) { dusttotal++; Spawnadust(); }// PUNISHMENT FOR INCORRECT ANSWER (More Dust Storms)
 				currentquestioncount = (int) (1 + maxquestions * Math.random()); // Changes to another randomly chosen question
-				//currentquestioncount++;
-				//if (currentquestioncount >= maxquestions) currentquestioncount = 0;
 				questionframe.setVisible(false); // Frame is still invisible
 				choices.clearSelection(); // The previous selection is cleared
 			}
@@ -1291,7 +1274,6 @@ public class gamePanel extends JPanel { // The Game Panel
 			spawnmoredust = false;
 		}
 		public void RewardSystem() { // Rewards that are given when the user gets a certain amount of questions correct
-			//notifbar.setText("Answer Correct");
 			switch(questionscorrect) {
 			case 5: receivedpause = true; JOptionPane.showMessageDialog(this, "The JONES Project Fund has been increased!"); roverbucks += 180; receivedpause = false;break; // Increase amount of $ by a bit
 			case 10: receivedpause = true; JOptionPane.showMessageDialog(this, "JONES has figured out how to identify resources better!"); resourcemax += 5; receivedpause = false;break; // Increases amount of resources on the map by a bit
@@ -1454,7 +1436,6 @@ public class gamePanel extends JPanel { // The Game Panel
 							dusttotal++;
 						}
 						craters++;
-						//if (days < 60) craters = days; // DEFAULT LAVA PIT INCREASING
 						if (craters > 156) craters = 156;
 					}
 					if (daytracker % 50 == 0 && r1e < 20.0 && r2e < 20.0 && r3e < 20.0) { r1e+=0.8; r2e+=0.8; r3e+=0.8; } // NATURAL INFLATION RATES
@@ -1475,7 +1456,6 @@ public class gamePanel extends JPanel { // The Game Panel
 								craterst[craterx][cratery] = 2;
 								threats[craterx][cratery] = 2; 
 							} 
-							//System.out.println("(" + dustx + "," + dusty + ")");
 						}
 					}
 					if (rovloc[rovx][rovy] == threats[rovx][rovy] -1) { // If rover is on a crater, does continuous damage
@@ -1495,8 +1475,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		private class EnergyRegen implements ActionListener { // Regenerates energy and health (reduces if above max)
 			public void actionPerformed (ActionEvent r) {
 				if (receivedpause != true) { // Runs if game is not paused (due to questions)
-					//System.out.println("ENERGY REGENERATED ONCE");
-					// Restores energy and health (if above, decreases it back down slowly)
 					if (energy < maxenergy) energy+=energyregenrate;
 					if (energy > maxenergy) energy--;
 					if (health < maxhealth) health+=healthregenrate;
@@ -1507,8 +1485,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		private class Restore implements ActionListener { // Restores vision & invalid and capmet booleans
 			public void actionPerformed (ActionEvent r) {
 				if (receivedpause != true) { // Runs if game is not paused (due to questions)
-					//System.out.println("RESTORED ONCE");
-					// Restores vision (if above, decreases it back down slowly)
 					if (rovvision < maxrovvision) rovvision++;
 					if (rovvision > maxrovvision) rovvision--;
 				}
@@ -1519,7 +1495,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		private class Respawn implements ActionListener { // Respawns resources
 			public void actionPerformed (ActionEvent r) {
 				if (receivedpause != true) { // Runs if game is not paused (due to questions)
-					//System.out.println("RESPAWN CHECKED");
 					int tempcount = 0;
 					for (int i = 0; i < 25; i++) {
 						for (int a = 0; a < 25; a++) {
@@ -1543,7 +1518,6 @@ public class gamePanel extends JPanel { // The Game Panel
 		private class DustMove implements ActionListener { // Moves Dust Around
 			public void actionPerformed (ActionEvent e) {
 				if (receivedpause != true) { // Runs if game is not paused (due to questions)
-					//System.out.println("RECEIVED DUSTSTORM MOVEMENT");
 					for (int x = 0; x < 25; x++) { // Wipes all previous locations for lava pits
 						for (int y = 0; y < 25; y++) {
 							if (threats[x][y] == 1) threats[x][y] = 0;
@@ -1568,7 +1542,6 @@ public class gamePanel extends JPanel { // The Game Panel
 						if (dusts[times][0] < 0 || dusts[times][0] > 24) dusts[times][0] = dusts[times][2];
 						if (dusts[times][1] < 0 || dusts[times][1] > 24) dusts[times][1] = dusts[times][3];
 						threats[dusts[times][0]][dusts[times][1]] = 1;
-						//threats[dusts[times][0]][dusts[times][1]] = 1;
 						int hpreduction = days / 2; // Reduces health according to half the amount of days past
 						if (hpreduction < 10) hpreduction = 10; // Minimum of 10
 						int energyreduction = (int) Math.round(0.1 * maxenergy); // Reduces energy according to 10% of total energy
@@ -1578,10 +1551,7 @@ public class gamePanel extends JPanel { // The Game Panel
 							health-=(int)hpreduction;
 							energy-=(int)energyreduction;
 						}
-						//if (dusts[times][0] == rovx && dusts[times][1] == rovy) rovvision--;
 					}
-					//System.out.println(dusts[0][0]);
-					//System.out.println(dusts[0][1]);
 					repaint(); // Repaints
 				}
 			}
@@ -1596,24 +1566,17 @@ public class gamePanel extends JPanel { // The Game Panel
 					g.setColor(Color.white);
 					g.drawLine(0, (16)*i, 800, (16)*i); // Draws the grid
 					g.drawLine((16)*i, 0, (16)*i, 800);
-					//g.drawLine(0, 7*i, 700, 0);
 					i++;
 				}
 			}
-			//if (hasFocus()) lifeandstatus.setVisible(true); 
 			if (receivedpause != true) requestFocus(); // Requests focus if game is not paused
 			if (revealall) { // Debugger's Hack
 				for (int row = 0; row < 25; row++) {
 					for (int col = 0; col < 25; col++) {
-						//if (rovloc[row][col] == 1) { g.setColor(Color.white); g.fillRect(row * 32, col * 32, 32, 32); } // ROVER
 						if (rovloc[row][col] == 1) { g.setColor(new Color(180, 180, 180, 150)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(roverimage, row * 32, col * 32, 32, 32, this); } // ROVER
-						//if (resources[row][col] == 1) { g.setColor(Color.yellow); g.fillRect(row * 32, col * 32, 32, 32); } // DEUTERIUM
 						if (resources[row][col] == 1) { g.setColor(new Color(150, 255, 102, 180)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(r1image, row * 32, col * 32, 32, 32, this); } // ROCK ORE
-						//if (resources[row][col] == 2) { g.setColor(Color.pink); g.fillRect(row * 32, col * 32, 32, 32); } // RESOURCE 2
 						if (resources[row][col] == 2) { g.setColor(new Color(150, 255, 102, 180)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(r2image, row * 32, col * 32, 32, 32, this); } // CRYSTAL 
-						//if (resources[row][col] == 3) { g.setColor(Color.magenta); g.fillRect(row * 32, col * 32, 32, 32); } // RESOURCE 3
 						if (resources[row][col] == 3) { g.setColor(new Color(150, 255, 102, 180)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(r3image, row * 32, col * 32, 32, 32, this); } // LIQUID
-						//if (threats[row][col] == 1) { g.setColor(Color.darkGray); g.fillRect(row * 32, col * 32, 32, 32); } // DUST STORM
 						if (threats[row][col] == 1) { g.setColor(new Color(180, 100, 100, 150)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(t1image, row * 32, col * 32, 32, 32, this); } // DUST STORMS
 						if (threats[row][col] == 2) { g.setColor(new Color(180, 100, 100, 150)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(t2image, row * 32, col * 32, 32, 32, this); } // LAVA PITS
 					}
@@ -1623,15 +1586,10 @@ public class gamePanel extends JPanel { // The Game Panel
 			for (int row = 0; row < 25; row++) { // Allows field of view
 				for (int col = 0; col < 25; col++) {
 					if (Math.abs(row - rovx) + Math.abs(col - rovy) < rovvision && gamestarted == true) { // Gives the field of view a value of 4 grid spaces: meaning the rover can only see within 4 spaces
-						//if (rovloc[row][col] == 1) { g.setColor(Color.white); g.fillRect(row * 32, col * 32, 32, 32); } // ROVER
 						if (rovloc[row][col] == 1) { g.setColor(new Color(180, 180, 180, 150)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(roverimage, row * 32, col * 32, 32, 32, this); } // ROVER
-						//if (resources[row][col] == 1) { g.setColor(Color.yellow); g.fillRect(row * 32, col * 32, 32, 32); } // DEUTERIUM
 						if (resources[row][col] == 1) { g.setColor(new Color(150, 255, 102, 180)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(r1image, row * 32, col * 32, 32, 32, this); } // ROCK ORE
-						//if (resources[row][col] == 2) { g.setColor(Color.pink); g.fillRect(row * 32, col * 32, 32, 32); } // RESOURCE 2
 						if (resources[row][col] == 2) { g.setColor(new Color(150, 255, 102, 180)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(r2image, row * 32, col * 32, 32, 32, this); } // CRYSTAL 
-						//if (resources[row][col] == 3) { g.setColor(Color.magenta); g.fillRect(row * 32, col * 32, 32, 32); } // RESOURCE 3
 						if (resources[row][col] == 3) { g.setColor(new Color(150, 255, 102, 180)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(r3image, row * 32, col * 32, 32, 32, this); } // LIQUID
-						//if (threats[row][col] == 1) { g.setColor(Color.darkGray); g.fillRect(row * 32, col * 32, 32, 32); } // DUST STORM
 						if (threats[row][col] == 1) { g.setColor(new Color(180, 100, 100, 150)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(t1image, row * 32, col * 32, 32, 32, this); } // DUST STORMS
 						if (threats[row][col] == 2) { g.setColor(new Color(180, 100, 100, 150)); g.fillRect(row * 32, col * 32, 32, 32); g.drawImage(t2image, row * 32, col * 32, 32, 32, this); } // LAVA PITS
 					}
@@ -1647,7 +1605,6 @@ public class gamePanel extends JPanel { // The Game Panel
 				System.out.println("[DEBUG] Key Pressed");
 				int oldx = rovx; // Keeps track of old location
 				int oldy = rovy;
-				//boolean boundscheck = false;
 				rovloc[rovx][rovy] = 0;
 				if (arg0.getKeyCode() == KeyEvent.VK_UP && energy > 0) { rovy -= 1; energy--; } // Moves the rover and consumes a energy point
 				else if (arg0.getKeyCode() == KeyEvent.VK_LEFT && energy > 0) { rovx -= 1; energy--; }
@@ -1662,10 +1619,7 @@ public class gamePanel extends JPanel { // The Game Panel
 					roverbucks+=10000;
 					rovvision++;
 					if (rovvision > 10) rovvision = 10;
-					//energy++;
-					//health++;
 					days++;
-					//questionscorrect++;
 				}
 				if (rovx < 0 || rovx > 24) rovx = oldx; // If out of bounds, restore old location
 				if (rovy < 0 || rovy > 24) rovy = oldy;
@@ -1704,8 +1658,6 @@ public class gamePanel extends JPanel { // The Game Panel
 			button2.setText(questions[currentquestioncount][2]);
 			button3.setText(questions[currentquestioncount][3]);
 			button4.setText(questions[currentquestioncount][4]);
-			//System.out.println("[DEBUG]: " + questions[currentquestioncount][0] + questions[currentquestioncount][1] + questions[currentquestioncount][2] + questions[currentquestioncount][3] + questions[currentquestioncount][4] + questions[currentquestioncount][5]);
-			//revalidate(); repaint();
 		}
 		public void keyReleased(KeyEvent arg0) {
 			System.out.println("[DEBUG] Key Released");

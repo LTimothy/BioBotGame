@@ -1,4 +1,13 @@
-//package game;
+/**
+ * Copyright (C) 2014 Timothy Lee - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU General Public License v3.0.
+ *
+ * You should have received a copy of the GNU General
+ * Public License v3.0 with this file. If not, please
+ * contact: timothyl@berkeley.edu, or visit:
+ * https://github.com/LTimothy/BioBotGame
+ */
 
 import java.awt.BorderLayout; // Imports necessary tools
 import java.awt.CardLayout;

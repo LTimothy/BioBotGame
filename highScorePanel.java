@@ -1,6 +1,13 @@
-//package game;
-
-//import java.awt.BorderLayout;
+/**
+ * Copyright (C) 2014 Timothy Lee - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU General Public License v3.0.
+ *
+ * You should have received a copy of the GNU General
+ * Public License v3.0 with this file. If not, please
+ * contact: timothyl@berkeley.edu, or visit:
+ * https://github.com/LTimothy/BioBotGame
+ */
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -23,13 +30,10 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JSeparator;
-//import javax.swing.JTextArea;
 import javax.swing.KeyStroke;
 import javax.swing.Timer;
 
 public class highScorePanel extends JPanel {
-	//private int isize = 400;
-	//private int sizef = 700;
 	public SlowUpdate shu = new SlowUpdate(); // Updates the High Score
 	public Timer slowupdated = new Timer(3000, shu); // Updates the High Scores every 3 seconds
 	public JLabel blank[] = new JLabel[10]; // Holds up to 10 high scores
@@ -50,7 +54,6 @@ public class highScorePanel extends JPanel {
 		menu.setMnemonic(KeyEvent.VK_Q); // Shows a letter for the notification bar
 		menu2 = new JMenu("Game Functions"); // The Game Functions Bar
 		menu2.setMnemonic(KeyEvent.VK_G); // Shows a letter for the game functions bar
-		//menu.getAccessibleContext().setAccessibleDescription("The only menu in this program that has menu items");
 		menuBar.add(menu);
 		specialNotice1 = new JMenuItem("Advanced Users Only"); // Shows a notice
 		menu.add(specialNotice1);
